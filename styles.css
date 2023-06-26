@@ -1,0 +1,437 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600;900&family=Fraunces:wght@600;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --white:#ffffff;
+    --db:#24303E;
+    --gray:#808397;
+    --dg:#5B636D;
+    --lg:#A7AAAD;
+    --green:#90D4C6;
+}
+.list-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 329px;
+    height: 329px;
+    position: relative;
+    left: 22px;
+    background-color: var(--white);
+    z-index: 2;
+    display: none;
+}
+
+.ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    Font:" Barlow";
+    font-weight:600;
+    Size:20px;
+    Line-height:25px;
+    letter-spacing: 0.14px;
+    color: var(--gray);
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.blue-head{
+    width: 375px;
+    height: 538px;
+    background-image: url(assets/mae-mu-1APtYqzNajA-unsplash.svg);
+    background-repeat: no-repeat;
+}
+.head1{
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 24px;
+}
+.head2{
+    display: flex;
+    justify-content: center;
+}
+.img4{
+    position: absolute;
+    z-index: 1;
+    top: 294px;
+}
+h1{
+    font-family: "Fraunces";
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 49.32px;
+    letter-spacing: 6.25px;
+    text-align: center;
+    color: var(--white);
+    margin-top: 40px;
+    text-transform:uppercase;
+}
+.container{
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.text{
+    font-family: "Fraunces";
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: var(--db);
+    
+}
+.btn1{
+    width: 137px;
+    height: 10px;
+    border-radius: 50px;
+    background-color: #FAD400;
+    margin-left: 5px;
+    margin-top: -12px;
+}
+.btn1:hover{
+    opacity: 25%;
+    cursor: pointer;
+}
+.btn2{
+    width: 137px;
+    height: 10px;
+    border-radius: 50px;
+    background-color: #FE7766;
+    margin-left: 5px;
+    margin-top: -10px;
+}
+.btn2:hover{
+    opacity: 25%;
+    cursor: pointer;
+}
+.egg{
+    padding: 64px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cup{
+    padding: 64px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img5{
+    width: 375px;
+    height: 312px;
+}
+.img6{
+    width: 375px;
+    height: 312px;
+}
+.cherry{
+    padding-top: 390px;
+    width: 375px;
+    height: 600px;
+    background-image: url(assets/mae-mu-vbAEHCrvXZ0-unsplash\ Copy\ copy.svg);
+    background-repeat: no-repeat;
+}
+.orange{
+    padding-top: 390px;
+    width: 375px;
+    height: 600px;
+    background-image: url(assets/mae-mu-vbAEHCrvXZ0-unsplash\ Copy\ \(copy\).svg);
+    background-repeat: no-repeat;
+}
+.img8{
+    width: 375px;
+    height: 312px;
+}
+h2{
+    font-family: "Fraunces";
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 39.46px;
+    letter-spacing: -0.23px;
+    color: var(--db);
+    text-align: center;
+}
+.about1{
+    font-family: "Fraunces";
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.13px;
+    color: var(--gray);
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+h3{
+    font-family: "Fraunces";
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 34.52px;
+    letter-spacing: 0.2px;
+    color: var(--db);
+    
+
+}
+.about4{
+    font-family: "Fraunces";
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 27px;
+    letter-spacing: 0.11px;
+    color: var(--dg);
+    margin-top: 24px;
+}
+.about5{
+    font-family: "Barlow";
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0.13px;
+    color: var(--dg);
+    margin: 32px 0;
+}
+.avar-div{
+    padding: 0 24px;
+}
+.img9{
+    margin-top: 64px;
+}
+
+h4{
+    font-family: "Fraunces";
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 22.19px;
+    letter-spacing: 0.13px;
+    color: var(--db);
+}
+.position{
+    font-family: "Barlow";
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: 0.1px;
+    color: var(--lg);
+    margin-top: 9px;
+}
+.testimonials{
+    font-family: "Fraunces";
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 4px;
+    color: var(--lg);
+    margin-top: 64px;
+}
+.footer{
+    width: 100%;
+    background-color: var(--green);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.last-div{
+    width: 375px;
+    height: 350px;
+    background-color: var(--green);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.img11{
+    width: 170px;
+    height: 33px;
+    margin-top: 64px;
+}
+.img-div{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 86px;
+    
+}
+.img10{
+    width: 210px;
+    height: 210px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 57px;
+    margin-top: 40px;
+}
+li{
+    font-family: "Barlow";
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.1px;
+    color: #458D7E;
+    
+}
+.icon-div{
+    margin-top: 80px;
+    display: flex;
+    gap: 28px;
+}
+li:hover{
+    color: var(--white);
+    cursor: pointer;
+}
+.img12::before{
+    color: white;
+    cursor: pointer;
+
+}
+
+@media screen and (min-width:1400px) {
+    .blue-head{
+        width: 1440px;
+        height: 750px;
+        background-image: none;
+        background-image: url(assets/photo-1569201529241-f96205e2f2c6.svg);
+        background-repeat: no-repeat;
+        padding: 8px 106px;
+    }
+    .container{
+        width: 1440px;
+        text-align: center;
+        
+    }
+    .last-div{
+        width: 1440px;
+    }
+    .img2{
+        display: none;
+    }
+    .list-div{
+        display: block;
+        background: none;
+    }
+    .ul{
+        display: flex;
+        flex-direction: row;
+        margin-left: 810px;
+        margin-top: -60px;
+
+    }
+    .list{
+        font-style: 18px;
+        font-weight: 600;
+        line-height: 25px;
+        letter-spacing: 0.12px;
+        color: var(--white);
+    }
+    .img4{
+        margin-left: 0px;
+        margin-top: 60px;
+    }
+    h1{
+        margin-top: -160px;
+        margin-left: 0px;
+        font-size: 56px;
+        letter-spacing: 8.75px;
+    }
+    .img5, .img6{
+        width: 720px;
+        height: 600px;
+    }
+    .fruit-div1{
+         display: flex;
+         flex-direction: row-reverse;
+    }
+    .fruit-div2{
+         display: flex;
+    }
+
+    .cherry, .orange{
+        width: 720px;
+        height: 600px;
+        text-align: center;
+    }
+    h2{
+        text-align: start;
+        width: 350px;
+        margin-right: 50px;
+        margin-top: 50px;
+    }
+    .img5{
+        margin-left: 170px;
+    }
+    .img6{
+        margin-right: 175px;
+    }
+    .button1{
+        margin-right: 250px;
+    }
+    .button2{
+        margin-right: 250px;
+    }
+
+    .about1{
+        text-align: start;
+        width: 450px;
+        margin-left: 50px;
+    }
+    .about4{
+        width: 340px;
+        margin-left: 180px;
+    }
+    .fruits{
+        display: flex;
+    }
+    .cherry{
+        background-image: none;
+        background-image: url(assets/mae-mu-vbAEHCrvXZ0-unsplash\ Copy\ \(1\)\ copy.svg);
+        background-repeat: no-repeat;
+    }
+    .orange{
+        background-image: none;
+        background-image: url(assets/mae-mu-vbAEHCrvXZ0-unsplash\ Copy.svg);
+        background-repeat: no-repeat;
+    }
+    .avar-div{
+        display: flex;
+        gap: 60px;
+        margin-top: 50px;
+    }
+    .about5{
+        width: 350px;
+    }
+    .img10{
+        width: 360px;
+        height: 447px;
+    }
+    .testimonials{
+        margin-top: 100px;
+    }
+    .img-div{
+        display: flex;
+    }
+    .footer{
+        margin-top: -43px;
+    }
+    .img11{
+        margin-bottom: 40px;
+    }
+    
+}

@@ -43,6 +43,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    overflow: scroll;
 }
 .header{
     width: 100%;
@@ -297,8 +298,8 @@ li:hover{
     color: var(--white);
     cursor: pointer;
 }
-.img12::before{
-    color: white;
+.img12:hover{
+    filter: brightness(100);
     cursor: pointer;
 
 }
@@ -332,7 +333,24 @@ li:hover{
         flex-direction: row;
         margin-left: 810px;
         margin-top: -60px;
-
+    }
+    .list:hover{
+        background-color: lightblue;
+        float: left;
+        text-align: center;
+        width: 140px;
+        padding: 14px 16px;
+        text-decoration: none;
+        height: 56px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        border-radius: 28px;
+    }
+    .ul, .list:active{
+        background-color: lightblue;
+        color: white;
     }
     .list{
         font-style: 18px;
